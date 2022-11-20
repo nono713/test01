@@ -1,0 +1,35 @@
+img{
+    max-width: 100%;
+}
+a{
+    color: #2b2a27;
+}
+body{
+    color: #2b2a27;
+    font-family: Helvetica Neue, Arial, Hiragino Sans, Meiryo, sans-serif;
+}
+li{
+    list-style: none;
+}
+.mainvisual {
+    display: flex;
+    margin-bottom: 60px;
+
+}
+.mainvisual .img{
+    width: 50%; 
+}
+ .mainvisual .img img{
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+ }
+ 
+ .mainvisual .menu{
+    width: 50%;
+ }
+.menu{
+    margin-top: 30px;
+    margin-left: 50px;
+}
